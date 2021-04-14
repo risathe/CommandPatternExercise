@@ -22,8 +22,8 @@ Due date: Wednesday, April 14th at 11:59 PM PT.
 Your work will be submitted individually via GitHub Classroom (starting links to be distributed in Canvas). The Unity project in your the master origin branch or your repository as assigned on GitHub Classroom will be graded. Other branches will be ignored. 
 
 ## Stage 1: Both legs.
-Create a right movement `ICaptainCommand` and use it in the `CaptainController.cs` script.  
-Right based on right axis movement. Be sure to `MoveCharacterLeft.cs` as a reference and use the following property of the  `SpriteRenderer` compotnent to make sure the Captain is facing the correct direction when moving:  
+Currently the Captain character has a left movement command. Create a right movement command file that will be implemented by `ICaptainCommand` interface, and use it in the `CaptainController.cs` script.
+The right movement should be based on the right axis movement. Be sure to use `MoveCharacterLeft.cs` as a reference file and use the following property of the  `SpriteRenderer` compotnent to make sure the Captain is facing the correct direction when moving:  
 `gameObject.GetComponent<SpriteRenderer>().flipX`
 
 ## Stage 2: Heave ho!
